@@ -12,7 +12,7 @@ const projectTypes = [
   },
   {
     name: "LiveNow",
-    tags: "#javascript, #reactjs, #typescript, firebase, #html, #css, #scss",
+    tags: "#javascript, #reactjs, #typescript, #firebase, #html, #css, #scss",
     image: LiveNow,
     githubLink: "https://arpih.github.io/live_now/",
   },
