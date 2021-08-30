@@ -16,7 +16,7 @@ class Contact extends React.Component<{}> {
     const email: string = this.emailRef.current ? this.emailRef.current.value : '';
     const msg: string = this.messageRef.current ? this.messageRef.current.value : '';
 
-    if (!firstname && !lastname && !email && !msg) return;
+    if (!firstname || !lastname || !email || !msg) return;
 
     fetch('http://localhost:5000/mail', {
       method: 'POST',
