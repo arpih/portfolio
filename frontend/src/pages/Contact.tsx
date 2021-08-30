@@ -47,14 +47,14 @@ class Contact extends React.Component<{}> {
               type="text"
               required
               className="first-name"
-              placeholder="first name"
+              placeholder="First name"
               ref={this.nameRef}
             />
             <input
               type="text"
               required
               className="last-name"
-              placeholder="last name"
+              placeholder="Last name"
               ref={this.lastnameRef}
             />
           </div>
@@ -62,13 +62,13 @@ class Contact extends React.Component<{}> {
             type="email"
             required
             className="email"
-            placeholder="email"
+            placeholder="Email"
             ref={this.emailRef}
           />
           <textarea
             required
             className="message"
-            placeholder="message"
+            placeholder="Message"
             ref={this.messageRef}
           ></textarea>
           <button

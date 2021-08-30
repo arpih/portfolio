@@ -31,15 +31,15 @@ app.post('/mail', (req, res) => {
      from: 'arpinesasunih@gmail.com',
      to: 'arpinesasunih@gmail.com',
      subject: 'Portfolio',
-     text: `First name: ${firstname}, \nLast name: ${lastname}, \nEmail: ${email}, \nMessage: ${msg}`
+     text: `${msg} \n\n${firstname} ${lastname} \n${email}`
    }
 
    transporter.sendMail(mailOptions, (err, result) => {
      if (err) {
        console.log(err);
-       res.json('opps! it seems like some error occured please try again.');
+       res.json('Opps! It seems like some error occured please try again.');
      } else {
-       res.json('thanks for e-mailing me. I will reply to you within 2 working days');
+       res.json('Thank you for e-mailing me. I will reply to you within 2 working days.');
      }
    });
 });
