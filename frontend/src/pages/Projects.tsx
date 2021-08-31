@@ -46,7 +46,7 @@ class Projects extends React.Component<{}> {
     return (
       <div className="projects-page">
         <h2 className="heading">Project<span className="highlight">s</span></h2>
-        <p className="sub-heading">You can get acquainted to my projects!</p>
+        <p className="sub-heading">You can get acquainted to my projects.</p>
         <div className="seperator"></div>
 
         <div className="project-container">{projTypes}</div>

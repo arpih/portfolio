@@ -31,6 +31,10 @@ const skillCards = [
     color: "#5ed9fb",
   },
   {
+    type: "ExpressJS",
+    color: "#83cd29",
+  },
+  {
     type: "Firebase",
     color: "#ffa000",
   }
@@ -50,7 +54,7 @@ class About extends React.Component<{}> {
     return (
       <div className="about-page">
         <h2 className="heading">About <span className="highlight">Me</span></h2>
-        <p className="sub-heading">To get acquainted?</p>
+        <p className="sub-heading">Allow me to introduce myself.</p>
         <div className="seperator"></div>
 
         <div className="about-me-container">
@@ -58,7 +62,7 @@ class About extends React.Component<{}> {
             <img src={DevImg} className="about-image" alt="" />
           </div>
           <div className="right-col">
-            <p className="about-para">Hello, dear friend. I am Arpine from Armenia. I am 26 years old. I work at Instigate Mobile company as SW Engineer.</p>
+            <p className="about-para">Hello, dear friend. My name is Arpine, born on the 10th of September 1994. I live in Armenia. I am a full-stack web developer. I have 3 years experience on IT sphere. I specialise in creating interactive experience and functional interfaces using ReactJS, TypeScript, Express, Firebase, HTML, CSS, SCSS.</p>
             <a href="/CV.pdf" className="btn" download> Download CV</a>
           </div>
         </div>

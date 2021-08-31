@@ -208,23 +208,6 @@ body {
       .rigth-col {
         position: relative;
       }
-      .left-col::before {
-        content: "Yes, Its me";
-        position: absolute;
-        right: 0;
-        top: -20px;
-      }
-      .left-col::after {
-        content: "";
-        position: absolute;
-        top: -10px;
-        right: 80px;
-        width: 50px;
-        height: 2px;
-        background: #fff;
-        transform-origin: right;
-        transform: rotate(-30deg);
-      }
       .about-image {
         width: 26vw;
         border-radius: 10px;
@@ -249,7 +232,6 @@ body {
         border: 1px solid #464646;
         text-align: center;
         position: relative;
-        cursor: pointer;
         transition: 0.5s;
         .skill {
           font-size: 2rem;

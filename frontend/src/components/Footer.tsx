@@ -4,7 +4,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="footer-component">
-        Made with love by #arpi_artsakh
+        Author: #arpi_artsakh
       </div>
     );
   }
