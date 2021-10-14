@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../images/logo.png';
 
 type Props = {
   appState: any,
@@ -47,7 +48,7 @@ class Header extends React.Component<Props, State> {
 
     return (
       <div className="header-component">
-        <h1 className="brand">#arpi_artsakh</h1>
+        <img src={Logo} className="brand" alt="" />
         <div
           role="button"
           className={`toggle-btn ${toggleBtn ? 'active' : ''}`}

@@ -88,7 +88,9 @@ body {
     align-items: center;
     z-index: 9999;
     .brand {
-      font-weight: 500;
+      width: 8rem;
+      height: 8rem;
+      margin-top: 25px;
     }
     .links-container {
       display: flex;

@@ -15,12 +15,6 @@ const projectTypes = [
     tags: "#javascript, #reactjs, #typescript, #firebase, #html, #css, #scss",
     image: LiveNow,
     githubLink: "https://arpih.github.io/live_now/",
-  },
-  {
-    name: "NFC Scanner",
-    tags: "#javascript, #html, #css",
-    image: NfcScanner,
-    githubLink: "https://arpih.github.io/nfc-scanner/",
   }
 ];
 
