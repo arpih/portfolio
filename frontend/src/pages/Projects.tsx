@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '../images/card.png';
 import LiveNow from '../images/liveNow.png';
-import NfcScanner from '../images/nfcScanner.png';
 
 const projectTypes = [
   {
